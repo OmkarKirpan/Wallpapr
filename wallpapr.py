@@ -5,7 +5,7 @@ import urllib
 import urllib2
 import os.path
 
-api_key = ""
+api_key = "" # get your api key from https://unsplash.com/developers
 url = "https://api.unsplash.com/photos/random?client_id=" + api_key
 
 user_path = os.environ["USERPROFILE"]
